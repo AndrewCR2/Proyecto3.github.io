@@ -1,0 +1,245 @@
+body{
+    background-color:rgb(33, 124, 177);
+   
+}
+/*Menu*/
+#contenedor{
+
+    background-color: brown;
+   position: absolute;
+   width: 1910px;
+   height: 200px;
+   top: 0px;
+   left: 0px;
+   margin: 0%;
+
+}
+#logo{
+    width: 180px;
+    position: absolute;
+    top: 5px;
+    left: 400px;
+
+}
+.nav{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   position: absolute;
+   left: 700px;
+   font-size: 18px;
+   top: 30px;
+}
+ul, ol{
+    list-style: none;
+}
+.nav > li{
+    float: left;   
+}
+.nav li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 30px 20px;
+    display: block;
+    
+}
+.nav li a:hover{
+    background-color: rgb(0, 81, 128);
+    transition: all 0.3s;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+/* Imagen*/
+#contenedor2{
+    width: 1910px;
+    height: 700px;
+    position: absolute;
+    background-color: rgb(31, 27, 27);
+   top: 200px;
+   left: 0px;
+   right: 0px;
+}
+#imagen{
+  width: 1910px;
+height: 700px;
+position: absolute;
+left: 0px;
+right: 0px;
+opacity: 0.4;
+}
+#titulo{
+    position: absolute;
+    top: 280px;
+    left: 380px;
+    font-family: DINNextLTPro;
+    font-size: 50px;
+    color: white;
+}
+/*Sub titulo*/
+#subcontenedor{
+    top: 1020px;
+    width: 800px;
+    height: 150px;
+    position: absolute;
+    left: 550px;
+    border: 2px solid black;
+    background-color: rgb(129, 125, 119);
+
+}
+#subtitulo{
+    position: absolute;
+    left: 15px;
+    font-size: 30px;
+    color: white;
+    font-family: DINNextLTPro;
+}
+/*Formularios*/
+#formularios{
+    width: 1300px;
+    height: 350px;
+    position: absolute;
+    top: 1300px;
+    left: 300px;
+    background-color: palegreen;
+}
+#subtitulo2{
+  font-size: 45px;
+  position: relative;
+  font-family:DINNextLTPro ;
+  left:450px;
+
+}
+
+#menu{
+    position: absolute;
+    top: 145px;
+    left: 120px;
+    width: 150px;
+    height: 30px;
+}
+#subtitulo3{
+ position: absolute;
+ left: 10px;
+ font-family: monospace;
+ font-size: 20px;
+}
+#subtitulo4{
+    position: absolute;
+    left: 300px;
+    font-family: monospace;
+ font-size: 20px;
+}
+#mes{
+    position: absolute;
+    top: 145px;
+    left: 470px;
+    width: 150px;
+    height: 30px;
+}
+
+#subtitulo5{
+    position: absolute;
+   left: 650px;
+    font-family: monospace;
+    font-size: 20px;
+}
+#menu2{
+    position: absolute;
+    top: 145px;
+    left: 765px;
+    width: 150px;
+    height: 30px;
+}
+
+#subtitulo6{
+    position: absolute;
+    left: 950px;
+     font-family: monospace;
+     font-size: 20px;
+}
+#menu3{
+    position: absolute;
+    top: 145px;
+    left: 1100px;
+    width: 150px;
+    height: 30px;
+}
+#botom{
+    position: absolute;
+    top: 255px;
+    left: 1100px;
+    width: 150px;
+    height: 30px;
+}
+                          /*Segundo formulario*/
+
+/*Estilo para el formulario*/
+#formulario{
+    border: solid 2px #b7ddf2;
+    background: #b7ddf2;
+    position: absolute;
+    top: 1700px;
+    left: 650px;
+    margin: 0 auto;
+    width: 550px;
+    padding: 10px;
+}
+/*Estilo para el título*/
+h1{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+/*Estilo para el texto y su linea*/
+#linea{
+    color: #666666;
+    margin-bottom: 5px;
+    border-bottom: solid 1px #fff;
+    padding-bottom: 5px;
+}
+/*Estilo para los textos del formulario*/
+#label{
+    display: block;
+    font-weight: bold;
+    width: 240px;
+    font-size: 12px;
+}
+/*Estilo para las cajas de texto simple*/
+#caja{
+    padding: 4px;
+    border: solid 1px #aacfe4;
+    margin: 2px 0 5px 0;
+}
+/*Estilo para el botón registrar*/
+#boton{
+    clear: both;
+    margin-left: 150px;
+    width: 125px;
+    height: 31px;
+    background: #666666;
+    text-align: center;
+    line-height: 31px;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/*footer*/
+.abajo{
+    width: 1900px;
+    height: 200px;
+    left: 0;
+    position: absolute;
+    top: 2300px;
+    background-color: rgb(89, 89, 226);
+}
+
+#derechos{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    position: absolute;
+   left: 100px;
+
+}

@@ -1,0 +1,434 @@
+body{
+    background-color: white;
+}
+/*Menu*/
+#contenedor{
+    background-color: brown;
+   position: absolute;
+   width: 1900px;
+   height: 200px;
+   top: 0px;
+   left: 0px;
+   margin: 0%;
+
+}
+#logo{
+    width: 180px;
+    position: absolute;
+    top: 5px;
+    left: 400px;
+
+}
+.nav{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   position: absolute;
+   left: 700px;
+   font-size: 18px;
+   top: 30px;
+}
+ul, ol{
+    list-style: none;
+}
+.nav > li{
+    float: left;   
+}
+.nav li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 30px 20px;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color: rgb(0, 81, 128);
+    transition: all 0.3s;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+/*Imagen Cusco*/
+#subcontenedor{
+    background-color: rgb(233, 169, 50);
+     top: 200px;
+    width: 1900px;
+    height: 1200px;
+    left: 0px;
+    position: absolute;
+
+}
+#imagen-cusco{
+    width: 1200px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+#titulo{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: Impact;
+    top: 550px;
+    left: 450px;
+
+}
+#acerca{
+
+    position: absolute;
+    top: 40px;
+    left: 1400px;
+    font-size: 30px;
+
+}
+#parrafo{
+    font-size: 20px;
+    top: 30px;
+  position: absolute;
+  padding: 100px;
+  left: 1200px;
+}
+#imagen-cusco2{
+    width: 700px;
+    position: absolute;
+    top:780px;
+    left: 250px;
+}
+#viaje{
+    position: absolute;
+    top: 400px;
+    left: 1250px;
+    font-size: 30px;
+}
+#imagen-cusco3{
+    position: absolute;
+    top: 500px;
+    left: 1250px;
+}
+#imagen-cusco4{
+    width: 700px;
+    position: absolute;
+    top: 800px;
+    left: 1190px;
+}
+
+/*Imagen Puno(Lago titicaca)*/
+#subcontenedor2{
+    background-color: rgb(231, 136, 26);
+     top: 1400px;
+    width: 1900px;
+    height: 1200px;
+    left: 0px;
+    position: absolute;
+
+}
+#imagen-puno{
+    width: 1200px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+#titulo2{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: Impact;
+    top: 550px;
+    left: 450px;
+
+}
+#acerca2{
+
+    position: absolute;
+    top: 40px;
+    left: 1400px;
+    font-size: 30px;
+
+}
+#parrafo2{
+    font-size: 20px;
+    top: 30px;
+  position: absolute;
+  padding: 100px;
+  left: 1200px;
+}
+#imagen-puno2{
+    width: 700px;
+    position: absolute;
+    top:780px;
+    left: 250px;
+}
+#viaje2{
+    position: absolute;
+    top: 400px;
+    left: 1250px;
+    font-size: 30px;
+}
+#imagen-puno3{
+    position: absolute;
+    top: 500px;
+    left: 1250px;
+}
+#imagen-puno4{
+    width: 700px;
+    position: absolute;
+    top: 800px;
+    left: 1190px;
+}
+/*Machu Picchu*/
+#subcontenedor3{
+    background-color: rgb(240, 125, 59);
+     top: 2600px;
+    width: 1900px;
+    height: 1200px;
+    left: 0px;
+    position: absolute;
+
+}
+#imagen-machu-picchu{
+    width: 1200px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+#titulo3{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: Impact;
+    top: 550px;
+    left: 450px;
+
+}
+#acerca3{
+
+    position: absolute;
+    top: 40px;
+    left: 1400px;
+    font-size: 30px;
+
+}
+#parrafo3{
+    font-size: 20px;
+    top: 30px;
+  position: absolute;
+  padding: 100px;
+  left: 1200px;
+}
+#imagen-machu-picchu2{
+    width: 700px;
+    position: absolute;
+    top:780px;
+    left: 250px;
+}
+#viaje3{
+    position: absolute;
+    top: 400px;
+    left: 1250px;
+    font-size: 30px;
+}
+#imagen-machu-picchu3{
+    width: 400px;
+    position: absolute;
+    top: 500px;
+    left: 1250px;
+}
+#imagen-machu-picchu4{
+    width: 700px;
+    position: absolute;
+    top: 800px;
+    left: 1190px;
+}
+/*Huacachina*/
+
+#subcontenedor4{
+    background-color: rgb(245, 65, 10);
+     top: 3800px;
+    width: 1900px;
+    height: 1250px;
+    left: 0px;
+    position: absolute;
+
+}
+#imagen-huacachina{
+    width: 1200px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+#titulo4{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: Impact;
+    top: 550px;
+    left: 450px;
+
+}
+#acerca4{
+
+    position: absolute;
+    top: 40px;
+    left: 1400px;
+    font-size: 30px;
+
+}
+#parrafo4{
+    font-size: 20px;
+    top: 30px;
+  position: absolute;
+  padding: 100px;
+  left: 1200px;
+}
+#imagen-huacachina2{
+    width: 700px;
+    position: absolute;
+    top:780px;
+    left: 250px;
+}
+#viaje4{
+    position: absolute;
+    top: 400px;
+    left: 1250px;
+    font-size: 30px;
+}
+#imagen-huacachina3{
+    width: 400px;
+    position: absolute;
+    top: 500px;
+    left: 1250px;
+}
+#imagen-huacachina4{
+    width: 700px;
+    position: absolute;
+    top: 800px;
+    left: 1190px;
+}
+/* Isla Ballestas*/
+#subcontenedor5{
+    background-color: rgb(185, 33, 7);
+     top: 5050px;
+    width: 1900px;
+    height: 1250px;
+    left: 0px;
+    position: absolute;
+
+}
+#imagen-islas-ballestas{
+    width: 1200px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+#titulo5{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: Impact;
+    top: 550px;
+    left: 450px;
+
+}
+#acerca5{
+
+    position: absolute;
+    top: 40px;
+    left: 1400px;
+    font-size: 30px;
+
+}
+#parrafo5{
+    font-size: 20px;
+    top: 30px;
+  position: absolute;
+  padding: 100px;
+  left: 1200px;
+}
+#imagen-islas-ballestas2{
+    width: 700px;
+    position: absolute;
+    top:780px;
+    left: 250px;
+}
+#viaje5{
+    position: absolute;
+    top: 400px;
+    left: 1250px;
+    font-size: 30px;
+}
+#imagen-islas-ballestas3{
+    width: 400px;
+    position: absolute;
+    top: 500px;
+    left: 1250px;
+}
+#imagen-islas-ballestas4{
+    width: 700px;
+    position: absolute;
+    top: 800px;
+    left: 1190px;
+}
+/*Cañon del colca*/
+#subcontenedor6{
+    background-color: rgb(64, 163, 24);
+     top: 6300px;
+    width: 1900px;
+    height: 1350px;
+    left: 0px;
+    position: absolute;
+
+}
+#imagen-cañon-colca{
+    width: 1200px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+#titulo6{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: Impact;
+    top: 550px;
+    left: 450px;
+
+}
+#acerca6{
+
+    position: absolute;
+    top: 40px;
+    left: 1400px;
+    font-size: 30px;
+
+}
+#parrafo6{
+    font-size: 20px;
+    top: 30px;
+  position: absolute;
+  padding: 100px;
+  left: 1200px;
+}
+#imagen-cañon-colca2{
+    width: 700px;
+    position: absolute;
+    top:780px;
+    left: 250px;
+}
+#viaje6{
+    position: absolute;
+    top: 400px;
+    left: 1250px;
+    font-size: 30px;
+}
+#imagen-cañon-colca3{
+    width: 400px;
+    position: absolute;
+    top: 500px;
+    left: 1250px;
+}
+#imagen-cañon-colca4{
+    width: 700px;
+    position: absolute;
+    top: 800px;
+    left: 1190px;
+}
