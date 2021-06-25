@@ -15,6 +15,7 @@
             <li><a href="tours.html">Tours</a></li>
             <li><a href="viajes.html">Viajes Personalizados</a></li>
             <li><a href="agencias.html">Agencias Top</a></li>
+            <li><a href="login.html">Login</a></li>
         </ul>
     </div>
     <div id="contenedor2">
@@ -26,7 +27,7 @@
         <h2 id="subtitulo">En "Travel Place" te ayudamos a organizar el viaje de tus sueños.¿Estás listo? ¡Revisa nuestras sugerencias de viajes!</h2>
     </div>
     <div id="formularios">
-        <h2 id="subtitulo2">Ideas de Viajes</h2>
+        <h2 id="subtitulo2">Reservación de Viajes</h2>
         <form id="formu">
             <h3 id="subtitulo3">Destino</h3>
            <select id="menu">
@@ -74,39 +75,44 @@
         <section id="formulario">
             <form id="tamaño"name="frmregistro" method="POST" action="principal.html">
                 <h1>Contáctenos</h1>
-                <label id="label">Complete los datos y nos estaremos comunicando en la brevedad</label>
+                <label id="Complete">Complete los datos y nos estaremos comunicando en la brevedad</label>
                 <p id="linea">&nbsp;</p>
-    
+                <br>
                 <label id="label">Nombres y Apellidos:
-                    <input name="txtnombres" type="text" id="caja" size="60">
+                    <input name="txtnombres" type="text" id="caja1" size="60">
                 </label>
+                <br><br>
                 <label id="label">DNI:
-                    <input type="text" id="caja" size="60" name="txtdni" placeholder="8 Caracteres" disabled/>
+                    <input type="text" id="caja2" size="60" name="txtdni" placeholder="8 Caracteres" />
                 </label>
+                <br>   <br>
                 <label id="label">Teléfono:
-                    <input type="tel" id="caja" size="60" name="txtfono"/>
+                    <input type="tel" id="caja3" size="60" name="txtfono"/>
                 </label>
-    
+                <br>   <br>
+                <label id="label">Correo electrónico
+                    <input type="email" id="caja4" size="60" name="txtemail"/>
+                </label>
+                <br>   <br>
                 <label id="label">Motivo de Viaje:
+                    <br><br>
                     <label id="label">
                         <input type="radio" name="btnestado" value="V" checked="checked"/>Vacaciones
                     </label>
+                    <br>
                     <label id="label">
                         <input type="radio" name="btnestado" value="C" checked="checked"/>Conocer nuevos lugares
                     </label>
+                    <br>
                     <label id="label">
                         <input type="radio" name="btnestado" value="V" checked="checked"/>Viaje de placer
                     </label>
+                    <br>
                     <label id="label">
                         <input type="radio" name="btnestado" value="F" checked="checked"/>Full day
                     </label>
                 </label>
-                <br>
-                <label id="label">Correo electrónico
-                    <input type="email" id="caja" size="60" name="txtemail"/>
-                </label>
-                <input type="submit" value="Registrar">
-                <input type="reset" value="Limpiar">
+                <input  type="submit" value="Enviar" id="boton2" >
             </form>
         </section>
 </body>

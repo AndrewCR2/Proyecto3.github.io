@@ -102,11 +102,12 @@ opacity: 0.4;
     top: 1300px;
     left: 300px;
     background-color: palegreen;
+    border-radius: 50px ;
 }
 #subtitulo2{
   font-size: 45px;
   position: relative;
-  font-family:DINNextLTPro ;
+  font-family: cursive;
   left:450px;
 
 }
@@ -180,16 +181,21 @@ opacity: 0.4;
     background: #b7ddf2;
     position: absolute;
     top: 1700px;
-    left: 650px;
+    left: 520px;
     margin: 0 auto;
-    width: 550px;
+    width: 800px;
+    height: 500px;
     padding: 10px;
+    border-radius: 50px 20px;
 }
 /*Estilo para el título*/
 h1{
-    font-size: 16px;
+    font-size: 30px;
+    position: relative;
+    left: 300px;
     font-weight: bold;
     margin-bottom: 2px;
+     font-family: cursive;
 }
 /*Estilo para el texto y su linea*/
 #linea{
@@ -199,20 +205,51 @@ h1{
     padding-bottom: 5px;
 }
 /*Estilo para los textos del formulario*/
+#Complete{
+    position: relative;
+    left: 180px;
+    top: 35px;
+    font-size: 17px;
+    color: rgb(148, 13, 13);
+}
+
 #label{
-    display: block;
-    font-weight: bold;
-    width: 240px;
-    font-size: 12px;
+   
+    width: 250px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
 }
 /*Estilo para las cajas de texto simple*/
-#caja{
+#caja1{
     padding: 4px;
     border: solid 1px #aacfe4;
     margin: 2px 0 5px 0;
 }
+#caja2{
+    padding: 4px;
+    border: solid 1px #aacfe4;
+    margin: 2px 0 5px 0;
+    position: relative;
+    left: 130px;
+}
+#caja3{
+    padding: 4px;
+    border: solid 1px #aacfe4;
+    margin: 2px 0 5px 0;
+    position: relative;
+    left: 100px;
+}
+#caja4{
+    padding: 4px;
+    border: solid 1px #aacfe4;
+    margin: 2px 0 5px 0;
+    position: relative;
+    left: 28px;
+}
 /*Estilo para el botón registrar*/
-#boton{
+#boton2{
+    position: relative;
+    left: 250px;
     clear: both;
     margin-left: 150px;
     width: 125px;
@@ -243,3 +280,5 @@ h1{
    left: 100px;
 
 }
+
+
