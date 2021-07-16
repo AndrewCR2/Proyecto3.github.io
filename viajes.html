@@ -23,97 +23,76 @@
        <h1 id="titulo">Te escuchamos, te entendemos,
         y diseñamos junto a ti tu viaje ideal</h1>
     </div>
-    <div id="subcontenedor">
-        <h2 id="subtitulo">En "Travel Place" te ayudamos a organizar el viaje de tus sueños.¿Estás listo? ¡Revisa nuestras sugerencias de viajes!</h2>
+    <div id="imagen2">
+        <img src="imagenes/imagen1.jpg">
     </div>
-    <div id="formularios">
-        <h2 id="subtitulo2">Reservación de Viajes</h2>
-        <form id="formu">
-            <h3 id="subtitulo3">Destino</h3>
-           <select id="menu">
-            <option>Cusco</option>
-            <option>Puno</option>
-            <option>Machu Picchu</option>
-            <option>Hucachina</option>
-            <option>Islas Balllestas</option>
-            <option>Cañon del Colca</option>
-           </select>
-
-           <h3 id="subtitulo4">Época del Año</h3>
-           <input  id="mes"type="month"   min="2021-05" max="2021" step="1" />
-
-           <h3 id="subtitulo5">Viajantes</h3>
-           <select id="menu2">
-            <option value="0">...</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-          </select>
-
-          <h3 id="subtitulo6">Presupuesto</h3>
-          <select id="menu3">
-            <option>...</option>
-            <option>$50</option>
-            <option>$100</option>
-            <option>$150</option>
-           </select>
-           <input id="botom" type="submit" value="Enviar">
-        </form>
-    </div>
-    <footer class="abajo">
-        <a href="destinos.html"> <h2 id="derechos">Copyright @ 2021 </h2></a>
-        </footer>
-
-        <!--segundo formulario-->
-        <section id="formulario">
-            <form id="tamaño"name="frmregistro" method="POST" action="principal.html">
-                <h1>Contáctenos</h1>
-                <label id="Complete">Complete los datos y nos estaremos comunicando en la brevedad</label>
-                <p id="linea">&nbsp;</p>
-                <br>
-                <label id="label">Nombres y Apellidos:
-                    <input name="txtnombres" type="text" id="caja1" size="60">
-                </label>
-                <br><br>
-                <label id="label">DNI:
-                    <input type="text" id="caja2" size="60" name="txtdni" placeholder="8 Caracteres" />
-                </label>
-                <br>   <br>
-                <label id="label">Teléfono:
-                    <input type="tel" id="caja3" size="60" name="txtfono"/>
-                </label>
-                <br>   <br>
-                <label id="label">Correo electrónico
-                    <input type="email" id="caja4" size="60" name="txtemail"/>
-                </label>
-                <br>   <br>
-                <label id="label">Motivo de Viaje:
-                    <br><br>
-                    <label id="label">
-                        <input type="radio" name="btnestado" value="V" checked="checked"/>Vacaciones
-                    </label>
-                    <br>
-                    <label id="label">
-                        <input type="radio" name="btnestado" value="C" checked="checked"/>Conocer nuevos lugares
-                    </label>
-                    <br>
-                    <label id="label">
-                        <input type="radio" name="btnestado" value="V" checked="checked"/>Viaje de placer
-                    </label>
-                    <br>
-                    <label id="label">
-                        <input type="radio" name="btnestado" value="F" checked="checked"/>Full day
-                    </label>
-                </label>
-                <input  type="submit" value="Enviar" id="boton2" >
-            </form>
-        </section>
+        <h2 id="subtitulo">En "Travel Place" te ayudamos a organizar el viaje de tus sueños. ¿Estás listo? ¡Revisa nuestras sugerencias de viajes!</h2>
+    <div id="subtitulo2"><strong>Perido:</strong></div>
+   
+     
+        <div class="conteiner">
+            <button class="mes" id="mes1">Ene</button>
+            <button class="mes" id="mes2">Feb</button>
+            <button class="mes" id="mes3">Mar</button>
+            <button class="mes" id="mes4">Abr</button>
+            <button class="mes" id="mes5">May</button>
+            <button class="mes" id="mes6">Jun</button>
+            <button class="mes" id="mes7">Jul</button>
+            <button class="mes" id="mes8">Agos</button>
+            <button class="mes" id="mes9">Sept</button>
+            <button class="mes" id="mes10">Oct</button>
+            <button class="mes" id="mes11">Nov</button>
+            <button class="mes" id="mes12">Dic</button>
+        </div>
+        <div id="subtitulo3"><strong>Deseo:</strong></div>
+        <div class="conteiner2">
+            <button class="deseo" id="deseo1"><img src="imagenes/relax.png" width="70px"> Relax</button>
+            <button class="deseo" id="deseo2"><img src="imagenes/deporte.png" width="70px"> Deporte</button>
+            <button class="deseo" id="deseo3"><img src="imagenes/cultura.png" width="70px">Cultura</button>
+            <button class="deseo" id="deseo4"><img src="imagenes/paisaje.png" width="70px">Paisaje</button>
+            <button class="deseo" id="deseo5"><img src="imagenes/gastronomia.png" width="70px">Gastronomia</button>
+        </div>
+    
+        <div id="subtitulo4"><strong>Presupuesto:</strong></div>
+       <form>
+        <div id="conteiner4">
+            <input type="text" placeholder="¿De que presupuesto dispones?" required>
+        </div>
+    
+        <div id="subtitulo5"><strong>Max-Días,Viajentes:</strong></div>
+    
+        <div id="conteiner5">
+            <input type="text"  placeholder="Maximo de días a viajar" required>
+            <select name="menu" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="5">Más</option>
+              </select>
+        </div>
+        <!--Formulario-->
+        <div id="subtitulo6"><strong>Nombre:</strong></div>
+    
+        <div id="conteiner6">
+            <input type="text" placeholder="Ingrese su nombre" required>
+        </div>
+    
+        <div id="subtitulo7"><strong>E-mail:</strong></div>
+    
+        <div id="conteiner7">
+            <input type="email" placeholder="Ingrese su correo" required>
+        </div>
+    
+        <div id="conteiner8">
+            <a href="#"><button>Enviar</button></a>
+        </div>
+     </form>
+  
+        <footer class="abajo">
+            <a href="destinos.html"> <h2 id="derechos">Copyright @ 2021 </h2></a>
+            </footer>
+        <script src="js/javascript.js"></script>
 </body>
 </html>

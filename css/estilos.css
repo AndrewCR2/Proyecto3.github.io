@@ -3,7 +3,6 @@ body{
 }
 /*Menu*/
 #contenedor{
-
     background-color: brown;
    position: absolute;
    width: 1900px;
@@ -11,14 +10,13 @@ body{
    top: 0px;
    left: 0px;
    margin: 0%;
-
 }
 #logo{
-    width: 180px;
+    width: 150px;
     position: absolute;
-    top: 5px;
+    top: 20px;
     left: 400px;
-
+    border-radius: 100px;
 }
 .nav{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -26,6 +24,7 @@ body{
    left: 700px;
    font-size: 18px;
    top: 30px;
+   
 }
 ul, ol{
     list-style: none;

@@ -1,12 +1,16 @@
 body{
     background-color: cadetblue;
 }
+@font-face {
+    font-family: "font";
+    src: url(fonts/Caveat-VariableFont_wght.ttf);
+}
 /*Menu*/
 #contenedor{
 
     background-color: brown;
    position: absolute;
-   width: 1900px;
+   width: 100%;
    height: 200px;
    top: 0px;
    left: 0px;
@@ -14,11 +18,11 @@ body{
 
 }
 #logo{
-    width: 180px;
+    width: 150px;
     position: absolute;
-    top: 5px;
+    top: 20px;
     left: 400px;
-
+    border-radius: 100px;
 }
 .nav{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -51,8 +55,8 @@ ul, ol{
 }
 /*Imagen de presentación*/
 #contenedor2{
-    width: 1910px;
-    height: 700px;
+    width: 100%;
+    height: 800px;
     position: absolute;
     background-color: rgb(31, 27, 27);
    top: 200px;
@@ -60,53 +64,257 @@ ul, ol{
    right: 0px;
 }
 #imagen{
-  width: 1910px;
-height: 700px;
-position: absolute;
-left: 0px;
-right: 0px;
-opacity: 0.4;
+   width: 100%;
+   height: 800px;
+   object-fit: fill;
+   left: 0px;
+   right: 0px;
+   opacity: 0.4;
 }
 #titulo{
     position: absolute;
     top: 280px;
     left: 550px;
-    font-family: DINNextLTPro;
-    font-size: 50px;
+    font-family: "font";
+    font-size: 85px;
     color: white;
 }
-/*Sub titulo*/
-#subcontenedor{
-    top: 1200px;
-    width: 800px;
-    height: 150px;
+/*  Paquetes de tours*/
+#ica{
+    top: 950px;
+    width: 100%;
+    height: 300px;
     position: absolute;
-    left: 550px;
-    border: 2px solid black;
-    background-color: rgb(129, 125, 119);
+    background: black;
+    left: 0px;
+    
+}
+#imagen2{
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+    opacity: 0.5;
+ }
 
-}
-#subtitulo{
+ #titulo2{
+     position: absolute;
+     left: 45%;
+     top: 50px;
+     font-family: sans-serif;
+     font-size: 50px;
+     color: white;
+ }
+
+/*Ica paquetes*/
+
+#contenedor3{
     position: absolute;
-    left: 15px;
-    font-size: 30px;
-    color: white;
-    font-family: DINNextLTPro;
+    width: 100%;
+    height: 1495px;
+    top: 1250px;
+    left: 0px;
+    background: #f7f7f7;
 }
-#botom{
+.subcontenedor{
+   width: 1800px;
+   height: 350px;
+  
+   margin: 45px;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 10px 9px 11px -6px rgba(0,0,0,0.67);
+  
+}
+.img{
+    position: absolute;
+    width: 550px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.subtitulo{
+    position: absolute;
+    left: 700px;
+    padding-top: 45px;
+    color: rgb(34, 101, 189);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.text{
+    position: absolute;
+    left: 700px;
+   padding-top: 85px;
+    color: black;
+    font-size: 18px;
+    font-family: Raleway,sans-serif;
+}
+.desde{
+    position: absolute;
+    left: 1500px;
+    padding-top: 70px;
+    color: black;
+    font-size: 20px;
+    font-family: Raleway,sans-serif;
+}
+.simbolo{
+    position: absolute;
+    left: 1510px;
+    padding-top: 110px;
+    color: rgb(230, 60, 30);
+    font-size: 20px;
+    font-family: Raleway,sans-serif;
+}
+.dinero{
+    position: absolute;
+    left: 1540px;
+    padding-top: 100px;
+    color: rgb(34, 101, 189);
+    font-size: 25px;
+    font-family: Raleway,sans-serif;
+}
+.soles{
+    position: absolute;
+    left: 1590px;
+     padding-top: 110px;
+    color: rgb(230, 60, 30);
+    font-size: 20px;
+    font-family: Raleway,sans-serif;
+}
+.boton{
+    position: absolute;
+    margin-top: 200px;
     width: 150px;
-    position: absolute;
-    top: 55px;
-    left: 170px;
+    height: 40px;
+    left: 1510px;
+    background: rgb(230, 60, 30);
+    color: white;
+    font-size: 20px;
+    font-family: Raleway,sans-serif;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+}
+.boton a{
+    text-decoration: none;
+    color: white;
+}
+.boton:hover{
+    transform: scale(1.13);
+}
+ /*Cusco*/
+ 
+    #cusco{
+        top: 2447px;
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        background: black;
+        left: 0px;
+        
+    }
+    #imagen3{
+        width: 100%;
+        height: 300px;
+        object-fit:cover;
+        opacity: 0.5;
+     }
+    
+     #titulo3{
+         position: absolute;
+         left: 45%;
+         top: 50px;
+         font-family: sans-serif;
+         font-size: 50px;
+         color: white;
+     }
+    
+     #contenedor4{
+        position: absolute;
+        width: 100%;
+        height: 1197px;
+        top: 2748px;
+        left: 0px;
+        background: #f7f7f7;
+    }
 
+
+/*Puno*/
+
+#puno{
+    top: 3945px;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    background: black;
+    left: 0px;
+    
+}
+#imagen3{
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+    opacity: 0.5;
+ }
+
+ #titulo3{
+     position: absolute;
+     left: 45%;
+     top: 50px;
+     font-family: sans-serif;
+     font-size: 50px;
+     color: white;
+ }
+
+ #contenedor5{
+    position: absolute;
+    width: 100%;
+    height: 1197px;
+    top: 4245px;
+    left: 0px;
+    background: #f7f7f7;
+}
+/*Arequipa*/
+
+#arequipa{
+    top: 5440px;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    background: black;
+    left: 0px;
+    
+}
+#imagen3{
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+    opacity: 0.5;
+ }
+
+ #titulo3{
+     position: absolute;
+     left: 45%;
+     top: 50px;
+     font-family: sans-serif;
+     font-size: 50px;
+     color: white;
+ }
+
+ #contenedor6{
+    position: absolute;
+    width: 100%;
+    height: 1310px;
+    top: 5740px;
+    left: 0px;
+    background: #f7f7f7;
 }
 /*footer*/
 .abajo{
-    width: 1900px;
+    width:100%;
     height: 200px;
     left: 0;
     position: absolute;
-    top: 2300px;
+    top: 7050px;
     background-color: rgb(89, 89, 226);
 }
 

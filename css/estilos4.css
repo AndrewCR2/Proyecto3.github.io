@@ -1,25 +1,27 @@
 body{
-    background-color:rgb(33, 124, 177);
+    background-color:cadetblue;
    
+}
+@font-face {
+    font-family: "font";
+    src: url(fonts/Caveat-VariableFont_wght.ttf);
 }
 /*Menu*/
 #contenedor{
-
     background-color: brown;
    position: absolute;
-   width: 1910px;
+   width: 100%;
    height: 200px;
    top: 0px;
    left: 0px;
    margin: 0%;
-
 }
 #logo{
-    width: 180px;
+    width: 150px;
     position: absolute;
-    top: 5px;
+    top: 20px;
     left: 400px;
-
+    border-radius: 100px;
 }
 .nav{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -40,245 +42,265 @@ ul, ol{
     text-decoration: none;
     padding: 30px 20px;
     display: block;
-    
 }
 .nav li a:hover{
     background-color: rgb(0, 81, 128);
     transition: all 0.3s;
 }
-
 .nav li:hover > ul{
     display: block;
 }
 /* Imagen*/
 #contenedor2{
-    width: 1910px;
-    height: 700px;
+    width: 100%;
+    height: 800px;
     position: absolute;
     background-color: rgb(31, 27, 27);
    top: 200px;
    left: 0px;
-   right: 0px;
 }
 #imagen{
-  width: 1910px;
-height: 700px;
-position: absolute;
-left: 0px;
-right: 0px;
-opacity: 0.4;
+   width: 100%;
+   height: 800px;
+   position: absolute;
+   opacity: 0.4;
 }
 #titulo{
     position: absolute;
     top: 280px;
-    left: 380px;
-    font-family: DINNextLTPro;
-    font-size: 50px;
+    left: 300px;
+    font-family: "font";
+    font-size: 65px;
     color: white;
 }
 /*Sub titulo*/
-#subcontenedor{
-    top: 1020px;
-    width: 800px;
-    height: 150px;
-    position: absolute;
-    left: 550px;
-    border: 2px solid black;
-    background-color: rgb(129, 125, 119);
-
-}
 #subtitulo{
     position: absolute;
-    left: 15px;
-    font-size: 30px;
-    color: white;
-    font-family: DINNextLTPro;
+    top: 1100px;
+    left: 150px;
+    font-size: 27px;
+    color: rgb(7, 75, 19);
+    font-family: Arial, Helvetica, sans-serif;
 }
-/*Formularios*/
-#formularios{
-    width: 1300px;
-    height: 350px;
+ /*Imagen de fondo*/
+#imagen2{
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+   top: 1000px;
+   left: 0px;
+}
+#imagen2 img{
+    width: 100%;
+   height: 1000px;
+   object-fit:cover;
+}
+/*Formulario*/
+.conteiner{
+    width: 600px;
+    height: 100px;
     position: absolute;
     top: 1300px;
-    left: 300px;
-    background-color: palegreen;
-    border-radius: 50px ;
+    left: 350px;
+    flex-wrap: wrap;
+   border-radius: 20px;
+    background: white;
+    display: flex; 
 }
-#subtitulo2{
-  font-size: 45px;
-  position: relative;
-  font-family: cursive;
-  left:450px;
-
+.mes{
+    width: 100px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    border: none; 
+    border-radius: 2px;
+    cursor: pointer;
 }
-
-#menu{
+.mes:focus{
+    background-color: #1681c9;
+    color: white;
+}
+.mes:hover{
+    background: #0c5585;
+}
+.conteiner2{
+    width: 500px;
+    height: 100px;
     position: absolute;
-    top: 145px;
-    left: 120px;
-    width: 150px;
-    height: 30px;
+    top: 1300px;
+    left: 1100px;
+    flex-wrap: wrap;
+   border-radius: 20px;
+    background: white;
+    display: flex; 
+}
+.deseo{
+    width: 100px;
+    border-radius: 2px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    border: none; 
+    cursor: pointer;
+}
+.deseo:focus{
+    background-color: #1681c9;
+    color: white;
+}
+.deseo:hover{
+    background: #0c5585;
+} 
+#subtitulo2{
+    position: absolute;
+    top: 1250px;    
+    left: 360px;
+    font-size: 23px;
+    font-family: cursive;
+    color: rgb(7, 75, 19);
 }
 #subtitulo3{
- position: absolute;
- left: 10px;
- font-family: monospace;
- font-size: 20px;
+    position: absolute;
+    top: 1250px;    
+    left: 1100px;
+    font-size: 23px;
+    font-family: cursive;
+    color: rgb(7, 75, 19);
+}
+#conteiner4{
+    position: absolute;
+    top: 1500px;
+    left: 350px;
+}
+#conteiner4 input{
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Helvetica";
+    border-radius: 2px;
+    border: 2px solid #0c5585;
+     
+}
+#conteiner5{
+    position: absolute;
+    top: 1500px;
+    left: 1100px;
+}
+#conteiner5 input{
+    width: 240px;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Helvetica";
+    border-radius: 2px;
+    border: 2px solid #0c5585;
+}
+#conteiner5 select{
+    width: 245px;
+    height: 52px;
+    font-family: "Helvetica";
+    font-size: 18px;
+    border-radius: 2px;
+    border: 2px solid #0c5585;
 }
 #subtitulo4{
     position: absolute;
-    left: 300px;
-    font-family: monospace;
- font-size: 20px;
+    top: 1450px;    
+    left: 360px;
+    font-size: 23px;
+    font-family: cursive;
+    color: white;
 }
-#mes{
-    position: absolute;
-    top: 145px;
-    left: 470px;
-    width: 150px;
-    height: 30px;
-}
-
 #subtitulo5{
     position: absolute;
-   left: 650px;
-    font-family: monospace;
-    font-size: 20px;
+    top: 1450px;    
+    left: 1100px;
+    font-size: 23px;
+    font-family: cursive;
+    color:white;
 }
-#menu2{
-    position: absolute;
-    top: 145px;
-    left: 765px;
-    width: 150px;
-    height: 30px;
-}
-
 #subtitulo6{
     position: absolute;
-    left: 950px;
-     font-family: monospace;
-     font-size: 20px;
+    top: 1600px;    
+    left: 360px;
+    font-size: 23px;
+    font-family: cursive;
+    color: white;
 }
-#menu3{
+#subtitulo7{
     position: absolute;
-    top: 145px;
+    top: 1600px;    
     left: 1100px;
-    width: 150px;
-    height: 30px;
+    font-size: 23px;
+    font-family: cursive;
+    color: white;
 }
-#botom{
+#conteiner6{
     position: absolute;
-    top: 255px;
+    top: 1650px;
+    left: 350px;
+}
+#conteiner6 input{
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Helvetica";
+    border-radius: 2px;
+    border: 2px solid #0c5585;
+}
+#conteiner7{
+    position: absolute;
+    top: 1650px;
     left: 1100px;
-    width: 150px;
-    height: 30px;
 }
-                          /*Segundo formulario*/
-
-/*Estilo para el formulario*/
-#formulario{
-    border: solid 2px #b7ddf2;
-    background: #b7ddf2;
+#conteiner7 input{
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Helvetica";
+    border-radius: 2px;
+    border: 2px solid #0c5585;
+}
+#conteiner8{
     position: absolute;
-    top: 1700px;
-    left: 520px;
-    margin: 0 auto;
-    width: 800px;
-    height: 500px;
-    padding: 10px;
-    border-radius: 50px 20px;
+    top: 1800px;
+    left: 1100px;
 }
-/*Estilo para el título*/
-h1{
-    font-size: 30px;
-    position: relative;
-    left: 300px;
-    font-weight: bold;
-    margin-bottom: 2px;
-     font-family: cursive;
-}
-/*Estilo para el texto y su linea*/
-#linea{
-    color: #666666;
-    margin-bottom: 5px;
-    border-bottom: solid 1px #fff;
-    padding-bottom: 5px;
-}
-/*Estilo para los textos del formulario*/
-#Complete{
-    position: relative;
-    left: 180px;
-    top: 35px;
-    font-size: 17px;
-    color: rgb(148, 13, 13);
-}
-
-#label{
-   
-    width: 250px;
+#conteiner8 button{
+    width:200px;
+    height: 50px;
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    font-family: "Helvetica";
+    background: rgb(16, 172, 133);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
-/*Estilo para las cajas de texto simple*/
-#caja1{
-    padding: 4px;
-    border: solid 1px #aacfe4;
-    margin: 2px 0 5px 0;
+#conteiner8 a{
+    text-decoration: none;
 }
-#caja2{
-    padding: 4px;
-    border: solid 1px #aacfe4;
-    margin: 2px 0 5px 0;
-    position: relative;
-    left: 130px;
+#conteiner8 a button{
+    color: white;
 }
-#caja3{
-    padding: 4px;
-    border: solid 1px #aacfe4;
-    margin: 2px 0 5px 0;
-    position: relative;
-    left: 100px;
+#conteiner8 button:hover{
+    background: rgb(5, 100, 76);
 }
-#caja4{
-    padding: 4px;
-    border: solid 1px #aacfe4;
-    margin: 2px 0 5px 0;
-    position: relative;
-    left: 28px;
-}
-/*Estilo para el botón registrar*/
-#boton2{
-    position: relative;
-    left: 250px;
-    clear: both;
-    margin-left: 150px;
-    width: 125px;
-    height: 31px;
-    background: #666666;
-    text-align: center;
-    line-height: 31px;
-    color: #ffffff;
-    font-size: 11px;
-    font-weight: bold;
-}
-
 /*footer*/
 .abajo{
-    width: 1900px;
+    width: 100%;
     height: 200px;
     left: 0;
     position: absolute;
-    top: 2300px;
+    top: 2500px;
     background-color: rgb(89, 89, 226);
 }
-
 #derechos{
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     position: absolute;
    left: 100px;
-
 }
 
 
